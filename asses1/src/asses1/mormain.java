@@ -30,7 +30,9 @@ class Riding extends Over {
 public class mormain {
            public static void main(String[] args) {
 			System.out.println();
-			
+			Over a=new Over();  
+			a.add(10, 20);
+			a.add(10, 20, 30);
 			
 			
 		}
